@@ -12,14 +12,33 @@ line-by-line notes, built module by module.
 ```
 DS-Module-2/
 ├── docs/
-│   └── 02-eda.md                       # Theory: stats, univariate/bivariate analysis
+│   └── 02-eda.md                   # Theory: stats, univariate/bivariate analysis
 ├── code/
-│   └── 02_eda.py                       # Tested, runnable practice code
+│   └── 02_eda.py                   # Tested, runnable practice code
 ├── explained/
-│   └── 02_eda_EXPLAINED.md             # My own line-by-line breakdown of the code
+│   └── 02_eda_EXPLAINED.md         # My own line-by-line breakdown of the code
 ├── LICENSE
+├── requirements.txt
 └── README.md
 ```
+
+
+## 📚 Full Series Progress Tracker
+
+| # | Module | Theory | Code | My Notes | Status |
+|---|--------|:---:|:---:|:---:|:---:|
+| 1 | Data Acquisition | [📄](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/docs/01-data-acquisition.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/code/01_data_acquisition.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/explained/01_data_acquisition_EXPLAINED.md) | ✅ |
+| 2 | Exploratory Data Analysis | [📄](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/docs/02-eda.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/code/02_eda.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/explained/02_eda_EXPLAINED.md) | ✅ |
+| 3 | Feature Engineering | [📄](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/docs/03-feature-engineering.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/code/03_feature_engineering.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/explained/03_feature_engineering_EXPLAINED.md) | ✅ |
+| 4 | Missing Data | — | 🔜 | 🔜 | 🚧 |
+| 5 | Outliers | — | 🔜 | 🔜 | 🚧 |
+| 6 | Feature Construction & PCA | — | 🔜 | 🔜 | 🚧 |
+| 7 | Regression | — | 🔜 | 🔜 | 🚧 |
+| 8 | Classification | — | 🔜 | 🔜 | 🚧 |
+| 9 | Ensemble Learning | — | 🔜 | 🔜 | 🚧 |
+| 10 | Clustering | — | 🔜 | 🔜 | 🚧 |
+
+✅ Complete &nbsp;&nbsp; 🚧 Coming soon — each module lives in its own repo: `DS-Module-1`, `DS-Module-2`, `DS-Module-3`, ...
 
 ## 📘 Topics covered
 
@@ -33,14 +52,9 @@ DS-Module-2/
 ```bash
 git clone https://github.com/DeveloperDesigner-star/DS-Module-2.git
 cd DS-Module-2
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 python code/02_eda.py
 ```
-
-## 🔗 Other modules in this series
-
-- [DS-Module-1 — Data Acquisition](https://github.com/DeveloperDesigner-star/DS-Module-1)
-- Module 3 — Feature Engineering (coming soon)
 
 ## 📄 License
 MIT — see [LICENSE](LICENSE)
