@@ -29,16 +29,9 @@ DS-Module-2/
 |---|--------|:---:|:---:|:---:|:---:|
 | 1 | Data Acquisition | [📄](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/docs/01-data-acquisition.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/code/01_data_acquisition.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-1/blob/main/explained/01_data_acquisition_EXPLAINED.md) | ✅ |
 | 2 | Exploratory Data Analysis | [📄](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/docs/02-eda.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/code/02_eda.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-2/blob/main/explained/02_eda_EXPLAINED.md) | ✅ |
-| 3 | Feature Engineering | [📄](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/docs/03-feature-engineering.md) | [🐍](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/code/03_feature_engineering.py) | [📝](https://github.com/DeveloperDesigner-star/DS-Module-3/blob/main/explained/03_feature_engineering_EXPLAINED.md) | ✅ |
-| 4 | Missing Data | — | 🔜 | 🔜 | 🚧 |
-| 5 | Outliers | — | 🔜 | 🔜 | 🚧 |
-| 6 | Feature Construction & PCA | — | 🔜 | 🔜 | 🚧 |
-| 7 | Regression | — | 🔜 | 🔜 | 🚧 |
-| 8 | Classification | — | 🔜 | 🔜 | 🚧 |
-| 9 | Ensemble Learning | — | 🔜 | 🔜 | 🚧 |
-| 10 | Clustering | — | 🔜 | 🔜 | 🚧 |
+| 3+ | More modules coming | — | — | — | 🚧 |
 
-✅ Complete &nbsp;&nbsp; 🚧 Coming soon — each module lives in its own repo: `DS-Module-1`, `DS-Module-2`, `DS-Module-3`, ...
+✅ Complete &nbsp;&nbsp; 🚧 Coming soon — each module lives in its own repo: `DS-Module-1`, `DS-Module-2`, ...
 
 ## 📘 Topics covered
 
