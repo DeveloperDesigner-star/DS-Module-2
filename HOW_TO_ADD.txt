@@ -1,0 +1,32 @@
+HOW TO ADD THIS TO YOUR EXISTING REPO (Termux)
+================================================
+
+1. Copy this zip to your phone's Download folder (if not already there).
+
+2. In Termux:
+
+   cd ~
+   cp /sdcard/Download/module2-add.zip .
+   unzip module2-add.zip
+
+3. Copy the new files into your existing repo folder:
+
+   cp module2-add/docs/02-eda.md module1-repo/docs/
+   cp module2-add/code/02_eda.py module1-repo/code/
+   cp module2-add/explained/02_eda_EXPLAINED.md module1-repo/explained/
+
+   (If you renamed "module1-repo" to something else, use that folder name instead.)
+
+4. Also copy the updated README.md (included in this zip) to replace your old one -
+   it now shows Module 2 as complete in the progress tracker:
+
+   cp module2-add/README.md module1-repo/README.md
+
+5. Push the update:
+
+   cd module1-repo
+   git add .
+   git commit -m "Add Module 2: EDA"
+   git push
+
+That's it - Module 2 is now live on your GitHub repo.
